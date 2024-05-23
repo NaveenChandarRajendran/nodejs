@@ -1,0 +1,38 @@
+Why Node js?
+
+Node is build to run non blocking io application on javascipt.
+
+Originally javascipt is created to run browser side, so it dont have any non blocking apis.
+
+IO means what?
+how we write read and write memory from the disk or from the network.
+
+Generally anything is not happening in CPU is called IO.
+
+Bllocking in the sense the delay is happend due to to io(reading an file from hard drive or network) ,due to that delay the program unable to move further operations.
+
+When the blocking is causing an issue?
+When we reacding anything through netwotk means, data from the external is stored temporary as kernal buffer and execute.
+
+IO Models
+
+blocking io
+non blocking io
+signal driven io
+asynchronus io
+io multiplexing
+    select
+    poll
+    Epoll/ kqueue/iocp
+
+io multiplexing
+select api
+
+Node js has two componetns
+1) v8
+2) libuv
+
+
+
+
+
