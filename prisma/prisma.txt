@@ -1,0 +1,9 @@
+npm i prisma
+
+npx prisma init //To get prisma config
+
+to install sqlite use 
+npx prisma init --datasource-provider sqlite
+
+TO do operations
+npm install @prisma/client
